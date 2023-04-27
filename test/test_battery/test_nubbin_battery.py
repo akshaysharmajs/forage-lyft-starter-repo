@@ -4,8 +4,7 @@ from datetime import date
 from battery.nubbin_battery import NubbinBattery
 
 
-
-class TestNubbinBatter(unittest.TestCase):
+class TestNubbinBattery(unittest.TestCase):
     def test_needs_service_true(self):
         current_date = date.fromisoformat("2020-05-15")
         last_service_date = date.fromisoformat("2016-01-25")
